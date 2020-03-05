@@ -1,0 +1,19 @@
+/*Program Name:
+Assignment:
+Author:
+Date:
+Version:
+Program Description:
+What I learned from this program:
+What difficulties did I have and how I solved them:
+*/
+
+Body=
+	Important Variable declarations
+	Procedures/Methods
+	Calculations
+
+Footer=
+	Program Output
+
+
