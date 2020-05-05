@@ -1,0 +1,47 @@
+1a.
+
+public boolean addRepair(int m, int b)
+{
+	for (int count = 0; count < schedule.size() - 1; count++)
+		{
+		if (schedule.get(count).getMechanicNum() == m)
+			{
+			return false;
+			}
+		if (schedule.get(count).getBayNum() == b)
+			{
+			return false;
+			}
+		}
+
+	CarRepiar newCarRepair = new CarRepair(m, b);
+	schedule.add(newCarRepair);
+	return true; 
+}
+
+1b.
+
+public ArrayList<Integer> availableMechanics()
+{
+	boolean inSchedule = false;
+	ArrayList<Integer> avaliable = new ArrayList<Integer>();
+	for (int count2 = 0; count2 < numberOfMechanics - 1; count2++)
+	{
+	inSchedule = false;
+
+		for(int count; count < schedule.size() - 1; count ++)
+			{
+			if (schedule.get(count).getMechanicNum() == count2)
+				{
+				inschedule = true; 
+				}
+			}
+
+		if (inschedule = false)
+			{
+			avaliable.add(schedule.get(count).getMechanicNum());
+			}
+}
+
+	return avaliable;
+}

@@ -1,0 +1,15 @@
+2. 
+public static int divBySum(int[] arr, int num)
+{
+	private int totalDivis = 0;	
+
+	for(int count : arr)
+		{
+		if (count % num == 0)
+			{
+			totalDivis += count;
+			}
+		}
+
+	return totalDivis;
+}

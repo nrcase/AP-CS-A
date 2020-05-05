@@ -1,0 +1,16 @@
+2a. public String toString(double amountDue)
+{
+	String totalString;
+	totalString = name + ", account number " + currAccNum + ", please pay $" + amountDue;
+	return totalString; 
+}
+
+2b. public int getNextAccNum()
+{
+	return nextAccNum;
+}
+
+2c. public void updateName(String newName)
+{
+	name = newName; 	
+}

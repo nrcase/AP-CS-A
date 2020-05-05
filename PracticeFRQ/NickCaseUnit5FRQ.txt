@@ -1,0 +1,34 @@
+public class AdditionPattern 
+{
+private int startingNumber;
+private int incrementedAmount;
+private int currentNumber;
+
+	public AdditionPatter(int start, int inc)
+	{
+	startingNumber = start;
+	currentNumber = start;
+	incrementedAmount = inc;
+	}
+
+	public int currentNumber()
+	{
+	return currentNumber 
+	}
+
+	public void next()
+	{
+	currentNumber = currentNumber + incrementedAmount;
+	}
+
+	public void prev()
+	{
+	if (currentNumber - incremented amount >= startingNumber)
+		{
+		currentNumber = currentNumber - incrementedAmount;
+		}
+	}
+}
+
+
+

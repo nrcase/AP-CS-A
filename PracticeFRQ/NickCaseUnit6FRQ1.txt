@@ -1,0 +1,36 @@
+1a.
+public int countNotInVocab(String[] wordArray)
+{ 
+	private int notIn;
+
+	for(int count = 0; count < wordArray.length; count++)
+		{
+		if ((theVocab.findWord(wordArray[count]))) = false)
+			{
+				notIn++;
+			}
+		}
+
+	return notIn;
+	
+}
+
+1b.  
+public String[] notInVocab(String[] wordArray)
+{ 
+	int vocabSize = theVocab.length;
+	private String[] returnArray = new String[vocabSize];
+
+	for(int count = 0; count < wordArray.length; count++)
+		{
+		if ((theVocab.findWord(wordArray[count]))) = false)
+			{
+				int index = 0;
+				returnArray[index] = theVocab[count]; 	
+				index++;			
+			}
+		}
+
+	return returnArray[];
+	
+}
